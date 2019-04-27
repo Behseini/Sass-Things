@@ -1,0 +1,34 @@
+Using Sass
+Install Ruby
+Install Sass (with Node npm install sass)
+Create two folders 'sass' and 'css'
+CD to directory and run this command on rubby -> sass --watch sass:css
+
+
+Basics
+
+================================== SCSS
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+================================== SASS
+
+$font-stack:    Helvetica, sans-serif
+$primary-color: #333
+
+body
+  font: 100% $font-stack
+  color: $primary-color
+  
+================================== CSS
+
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
