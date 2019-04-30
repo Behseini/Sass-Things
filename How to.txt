@@ -1,6 +1,6 @@
 Using Sass
 Install Ruby
-Install Sass (with Node npm install sass)
+Install Sass (with Node npm install sass) npm install -g sass
 Create two folders 'sass' and 'css'
 CD to directory and run this command on rubby -> sass --watch sass:css
 
